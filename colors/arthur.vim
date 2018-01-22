@@ -3,7 +3,7 @@
 " Maintainer: github.com/thenewvu
 " License:    The MIT License (MIT)
 "
-" A colorscheme was inspired by blueprints.
+" A minimal dark colorscheme for Vim/Neovim.
 "
 " A lot of works come from:
 " https://github.com/noahfrederick/vim-hemisu/
@@ -17,7 +17,7 @@ if exists('syntax on')
     syntax reset
 endif
 
-let g:colors_name='blueprint'
+let g:colors_name='arthur'
 
 let s:bg1         = { "gui": "#252525" }
 let s:bg2         = { "gui": "#505050" }
