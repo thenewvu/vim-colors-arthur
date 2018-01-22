@@ -26,9 +26,9 @@ let s:fore1         = { "gui": "#ddeedd" }
 let s:fore2         = { "gui": "#4d4d4d" }
 let s:fore3         = { "gui": "#1c1c1c" }
 
-let s:red           = { "gui": "#ff7e79" }
-let s:green         = { "gui": "#73fa79" }
-let s:yellow        = { "gui": "#ffd479" }
+let s:red           = { "gui": "#CD5C5C" }
+let s:green         = { "gui": "#86AF80" }
+let s:yellow        = { "gui": "#E8AE5B" }
 
 let s:fg1         = s:fore1
 let s:fg2         = s:fore2
