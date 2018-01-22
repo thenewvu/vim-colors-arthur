@@ -19,22 +19,16 @@ endif
 
 let g:colors_name='blueprint'
 
-let s:back1         = { "gui": "#1c1c1c" }
-let s:back2         = { "gui": "#4d4d4d" }
-let s:back3         = { "gui": "#ddeedd" }
-let s:fore1         = { "gui": "#ddeedd" }
-let s:fore2         = { "gui": "#4d4d4d" }
-let s:fore3         = { "gui": "#1c1c1c" }
+let s:bg1         = { "gui": "#252525" }
+let s:bg2         = { "gui": "#505050" }
+let s:bg3         = { "gui": "#555555" }
+let s:fg1         = { "gui": "#ddeedd" }
+let s:fg2         = { "gui": "#606060" }
+let s:fg3         = { "gui": "#252525" }
 
-let s:red           = { "gui": "#CD5C5C" }
-let s:green         = { "gui": "#86AF80" }
-let s:yellow        = { "gui": "#E8AE5B" }
-
-let s:fg1         = s:fore1
-let s:fg2         = s:fore2
-let s:fg3         = s:fore3
-let s:bg1         = s:back1
-let s:bg2         = s:back2
+let s:red         = { "gui": "#CD5C5C" }
+let s:green       = { "gui": "#86AF80" }
+let s:yellow      = { "gui": "#E8AE5B" }
 
 function! s:h(group, style)
   execute "highlight" a:group
@@ -108,7 +102,7 @@ call s:h("Visual",        {"gui": "standout"})
 call s:h("VisualNOS",     {"gui": "standout"}) 
 call s:h("WarningMsg",    {"fg": s:yellow}) 
 call s:h("WildMenu",      {"fg": s:fg1, "bg": s:bg2}) 
-call s:h("Folded",        {"fg": s:fg3, "bg": s:bg2})
+call s:h("Folded",        {"fg": s:fg3, "bg": s:bg3})
 call s:h("FoldColumn",    {"fg": s:fg2}) 
 call s:h("DiffAdd",       {"fg": s:green}) 
 call s:h("DiffDelete",    {"fg": s:red}) 
